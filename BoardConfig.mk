@@ -26,3 +26,19 @@ include $(DEVICE_PATH)/board/*.mk
 
 # Board device vendor
 -include vendor/sony/nicki/BoardConfigVendor.mk
+
+# TWRP Only Available for FOTA Build, not for Lineage
+# For TWRP, push this string to enable TWRP
+# TW_THEME := portrait_mdpi
+# TARGET_USERIMAGES_USE_F2FS := true
+# TW_HAS_NO_RECOVERY_PARTITION := true
+# TW_FLASH_FROM_STORAGE := true
+# TW_EXTERNAL_STORAGE_PATH := "/external_sd"
+# TW_EXTERNAL_STORAGE_MOUNT_POINT := "external_sd"
+# RECOVERY_SDCARD_ON_DATA := true
+# TW_DEFAULT_EXTERNAL_STORAGE := true
+# TW_INCLUDE_FUSE_EXFAT := true
+# TW_INCLUDE_NTFS_3G := true
+# TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
+# TW_MAX_BRIGHTNESS := 255
+# TW_INCLUDE_CRYPTO := true
