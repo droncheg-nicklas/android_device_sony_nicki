@@ -30,7 +30,6 @@ include $(DEVICE_PATH)/board/*.mk
 # TWRP Only Available for FOTA Build, not for Lineage
 # For TWRP, push this string to enable TWRP
 # TW_THEME := portrait_mdpi
-# TARGET_USERIMAGES_USE_F2FS := true
 # TW_HAS_NO_RECOVERY_PARTITION := true
 # TW_FLASH_FROM_STORAGE := true
 # TW_EXTERNAL_STORAGE_PATH := "/external_sd"
