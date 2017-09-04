@@ -5,8 +5,8 @@ BOARD_KERNEL_CMDLINE := panic=3 console=ttyHSL0,115200,n8 androidboot.hardware=q
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000
 
 # Kernel properties
-TARGET_KERNEL_SOURCE := kernel/sony/msm8x27
-TARGET_KERNEL_CONFIG := lineageos_nicki_defconfig
+TARGET_KERNEL_SOURCE := kernel/sony/Mimori-Kernel
+TARGET_KERNEL_CONFIG := mimori_nicki_defconfig
 
 # Custom boot
 BOARD_CUSTOM_BOOTIMG := true
